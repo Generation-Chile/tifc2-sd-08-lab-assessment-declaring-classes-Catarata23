@@ -1,5 +1,8 @@
 export class Player {
-  constructor() {
+  constructor(name) {
+    this.name = String(name)
     
   }
   }
+  const player = new Player()
+  console.log(player)
